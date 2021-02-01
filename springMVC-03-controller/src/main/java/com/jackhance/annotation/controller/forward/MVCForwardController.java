@@ -22,7 +22,7 @@ public class MVCForwardController {
 
     @RequestMapping("/rsm/t3")
     public String test3() {
-        //重定向
+        //重定向, 需要完整路径，如/rsm/t1
         return "redirect:/test.jsp";
     }
 
